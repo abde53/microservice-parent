@@ -1,0 +1,24 @@
+2023-08-30 09:57:01,841 INFO o.s.b.StartupInfoLogger [main] Starting productServiceApplicationTests using Java 17.0.7 with PID 14926 (started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent/product-service)
+2023-08-30 09:57:01,845 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 09:57:02,570 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 09:57:02,632 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-08-30 09:57:03,147 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 09:57:03,148 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 09:57:03,148 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 09:57:03,505 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/product-service (PostgreSQL 12.16)
+2023-08-30 09:57:03,563 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 2 migrations (execution time 00:00.029s)
+2023-08-30 09:57:03,599 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": 1.0.0
+2023-08-30 09:57:03,600 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 09:57:03,721 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 09:57:03,785 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 09:57:04,126 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 09:57:04,160 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5319f982
+2023-08-30 09:57:04,163 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 09:57:04,205 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 09:57:05,139 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 09:57:05,149 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 09:57:05,560 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 09:57:05,914 INFO o.s.b.StartupInfoLogger [main] Started productServiceApplicationTests in 4.597 seconds (process running for 5.867)
+2023-08-30 09:57:06,106 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 09:57:06,178 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-30 09:57:06,186 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

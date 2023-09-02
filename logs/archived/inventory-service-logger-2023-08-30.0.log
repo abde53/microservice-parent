@@ -1,0 +1,488 @@
+2023-08-30 11:05:33,912 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 26711 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:05:33,915 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:05:34,345 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:05:34,400 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:05:34,795 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:05:34,801 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:05:34,803 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:05:34,803 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:05:34,864 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:05:34,865 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 914 ms
+2023-08-30 11:05:34,976 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:05:34,976 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:05:34,976 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:05:35,163 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:05:35,184 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 0 migrations (execution time 00:00.005s)
+2023-08-30 11:05:35,184 WARN o.f.c.i.l.s.Slf4jLog [main] No migrations found. Are your locations set up correctly?
+2023-08-30 11:05:35,198 INFO o.f.c.i.l.s.Slf4jLog [main] Creating Schema History table "public"."flyway_schema_history" ...
+2023-08-30 11:05:35,302 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": << Empty Schema >>
+2023-08-30 11:05:35,303 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 11:05:35,359 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:05:35,386 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:05:35,550 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:05:35,573 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b30eec5
+2023-08-30 11:05:35,575 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:05:35,590 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:05:36,027 ERROR o.s.o.j.AbstractEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [inventory]
+2023-08-30 11:05:36,027 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [inventory]
+2023-08-30 11:05:36,028 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-08-30 11:05:36,033 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-08-30 11:05:36,035 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-08-30 11:05:36,043 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-30 11:05:36,054 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [inventory]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.abde53.discoveryservice.InventoryServiceApplication.main(InventoryServiceApplication.java:9)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [inventory]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [inventory]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:133)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:96)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:74)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:293)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-08-30 11:08:51,830 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 27537 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:08:51,834 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:08:52,291 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:08:52,341 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:08:52,715 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:08:52,721 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:08:52,724 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:08:52,725 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:08:52,792 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:08:52,794 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 914 ms
+2023-08-30 11:08:52,905 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:08:52,906 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:08:52,906 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:08:53,106 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:08:53,141 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 1 migration (execution time 00:00.015s)
+2023-08-30 11:08:53,174 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": << Empty Schema >>
+2023-08-30 11:08:53,183 INFO o.f.c.i.l.s.Slf4jLog [main] Migrating schema "public" to version "1.0.0 - init database"
+2023-08-30 11:08:53,245 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully applied 1 migration to schema "public", now at version v1.0.0 (execution time 00:00.077s)
+2023-08-30 11:08:53,303 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:08:53,336 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:08:53,503 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:08:53,525 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@365bfc5f
+2023-08-30 11:08:53,527 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:08:53,542 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:08:53,986 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 11:08:53,992 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:08:54,173 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inventoryController' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes/com/abde53/inventoryservice/controller/InventoryController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'inventoryService' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes/com/abde53/inventoryservice/service/InventoryService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'inventoryRepo' defined in com.abde53.discoveryservice.repository.InventoryRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); Reason: Failed to create query for method public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); No property 'skyCode' found for type 'Inventory' Did you mean ''skuCode''
+2023-08-30 11:08:54,174 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:08:54,176 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-08-30 11:08:54,181 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-08-30 11:08:54,183 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-08-30 11:08:54,191 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-30 11:08:54,204 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inventoryController' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes/com/abde53/inventoryservice/controller/InventoryController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'inventoryService' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes/com/abde53/inventoryservice/service/InventoryService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'inventoryRepo' defined in com.abde53.discoveryservice.repository.InventoryRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); Reason: Failed to create query for method public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); No property 'skyCode' found for type 'Inventory' Did you mean ''skuCode''
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.abde53.discoveryservice.InventoryServiceApplication.main(InventoryServiceApplication.java:9)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inventoryService' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes/com/abde53/inventoryservice/service/InventoryService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'inventoryRepo' defined in com.abde53.discoveryservice.repository.InventoryRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); Reason: Failed to create query for method public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); No property 'skyCode' found for type 'Inventory' Did you mean ''skuCode''
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'inventoryRepo' defined in com.abde53.discoveryservice.repository.InventoryRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); Reason: Failed to create query for method public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); No property 'skyCode' found for type 'Inventory' Did you mean ''skuCode''
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); Reason: Failed to create query for method public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); No property 'skyCode' found for type 'Inventory' Did you mean ''skuCode''
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:115)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:99)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:88)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:88)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:357)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:279)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:245)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:285)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract com.abde53.discoveryservice.model.Inventory com.abde53.discoveryservice.repository.InventoryRepo.getInventoryBySkyCode(java.lang.String); No property 'skyCode' found for type 'Inventory' Did you mean ''skuCode''
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:124)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:258)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:111)
+	... 56 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'skyCode' found for type 'Inventory' Did you mean ''skuCode''
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:423)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:399)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:352)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:334)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:317)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:242)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:243)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:372)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:373)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 60 common frames omitted
+2023-08-30 11:10:36,348 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 28031 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:10:36,351 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:10:36,829 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:10:36,880 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:10:37,259 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:10:37,265 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:10:37,267 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:10:37,267 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:10:37,329 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:10:37,330 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 935 ms
+2023-08-30 11:10:37,438 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:10:37,439 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:10:37,439 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:10:37,637 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:10:37,665 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 1 migration (execution time 00:00.015s)
+2023-08-30 11:10:37,693 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": 1.0.0
+2023-08-30 11:10:37,694 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 11:10:37,751 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:10:37,778 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:10:37,945 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:10:37,969 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e2c6fd6
+2023-08-30 11:10:37,970 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:10:37,986 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:10:38,442 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 11:10:38,448 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:10:38,680 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 11:10:38,875 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:10:38,887 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-30 11:10:38,897 INFO o.s.b.StartupInfoLogger [main] Started InventoryServiceApplication in 3.003 seconds (process running for 3.373)
+2023-08-30 11:11:09,854 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:11:09,858 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-30 11:11:09,869 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-30 11:11:12,245 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 28228 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:11:12,247 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:11:12,791 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:11:12,848 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:11:13,289 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:11:13,296 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:11:13,298 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:11:13,298 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:11:13,366 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:11:13,367 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1076 ms
+2023-08-30 11:11:13,477 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:11:13,477 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:11:13,477 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:11:13,686 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:11:13,711 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 1 migration (execution time 00:00.013s)
+2023-08-30 11:11:13,738 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": 1.0.0
+2023-08-30 11:11:13,739 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 11:11:13,794 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:11:13,826 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:11:14,014 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:11:14,042 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1de73d37
+2023-08-30 11:11:14,044 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:11:14,066 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:11:14,595 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 11:11:14,601 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:11:14,939 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 11:11:15,158 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:11:15,170 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-30 11:11:15,178 INFO o.s.b.StartupInfoLogger [main] Started InventoryServiceApplication in 3.396 seconds (process running for 3.719)
+2023-08-30 11:14:03,097 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:14:03,099 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-30 11:14:03,105 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-30 11:14:05,705 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 29189 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:14:05,707 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:14:06,231 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:14:06,281 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:14:06,674 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:14:06,682 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:14:06,685 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:14:06,686 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:14:06,753 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:14:06,755 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 996 ms
+2023-08-30 11:14:06,869 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:14:06,869 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:14:06,869 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:14:07,064 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:14:07,094 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 1 migration (execution time 00:00.017s)
+2023-08-30 11:14:07,120 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": 1.0.0
+2023-08-30 11:14:07,121 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 11:14:07,178 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:14:07,203 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:14:07,371 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:14:07,393 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e2c6fd6
+2023-08-30 11:14:07,394 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:14:07,410 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:14:07,953 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 11:14:07,961 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:14:08,290 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 11:14:08,555 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:14:08,566 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-30 11:14:08,575 INFO o.s.b.StartupInfoLogger [main] Started InventoryServiceApplication in 3.457 seconds (process running for 3.805)
+2023-08-30 11:14:49,799 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 11:14:49,800 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-30 11:14:49,801 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-08-30 11:14:49,832 INFO c.a.i.c.InventoryController [http-nio-8080-exec-2] add inventory
+2023-08-30 11:15:42,792 INFO c.a.i.c.InventoryController [http-nio-8080-exec-3] Checking if test is in stock
+2023-08-30 11:15:42,792 INFO c.a.i.s.InventoryService [http-nio-8080-exec-3] Getting inventory of : test
+2023-08-30 11:15:42,871 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.abde53.discoveryservice.exception.NoInventoryFoundException: No Inventory found] with root cause
+com.abde53.discoveryservice.exception.NoInventoryFoundException: No Inventory found
+	at com.abde53.discoveryservice.service.InventoryService.isInStock(InventoryService.java:39)
+	at com.abde53.discoveryservice.controller.InventoryController.isInStock(InventoryController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 11:17:29,163 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:17:29,165 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-30 11:17:29,173 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-30 11:17:31,610 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 29851 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:17:31,612 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:17:32,094 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:17:32,134 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:17:32,552 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:17:32,558 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:17:32,561 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:17:32,562 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:17:32,646 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:17:32,648 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 997 ms
+2023-08-30 11:17:32,759 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:17:32,760 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:17:32,760 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:17:32,967 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:17:32,999 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 1 migration (execution time 00:00.015s)
+2023-08-30 11:17:33,029 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": 1.0.0
+2023-08-30 11:17:33,030 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 11:17:33,091 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:17:33,121 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:17:33,303 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:17:33,325 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e2d8623
+2023-08-30 11:17:33,326 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:17:33,343 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:17:33,859 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 11:17:33,865 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:17:34,119 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 11:17:34,351 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:17:34,365 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-30 11:17:34,376 INFO o.s.b.StartupInfoLogger [main] Started InventoryServiceApplication in 3.243 seconds (process running for 3.575)
+2023-08-30 11:17:49,952 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:17:49,955 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-30 11:17:49,964 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-30 11:17:52,493 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 30007 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:17:52,495 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:17:52,964 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:17:53,008 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:17:53,426 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:17:53,433 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:17:53,435 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:17:53,436 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:17:53,510 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:17:53,511 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 969 ms
+2023-08-30 11:17:53,634 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:17:53,634 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:17:53,634 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:17:53,842 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:17:53,876 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 1 migration (execution time 00:00.015s)
+2023-08-30 11:17:53,908 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": 1.0.0
+2023-08-30 11:17:53,909 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 11:17:53,975 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:17:54,005 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:17:54,209 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:17:54,239 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bc2bb58
+2023-08-30 11:17:54,241 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:17:54,263 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:17:54,815 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 11:17:54,823 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:17:55,104 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 11:17:55,321 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:17:55,333 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-30 11:17:55,340 INFO o.s.b.StartupInfoLogger [main] Started InventoryServiceApplication in 3.324 seconds (process running for 3.739)
+2023-08-30 11:18:06,185 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 11:18:06,186 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-30 11:18:06,187 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-08-30 11:18:06,215 INFO c.a.i.c.InventoryController [http-nio-8080-exec-2] add inventory
+2023-08-30 11:18:06,217 INFO c.a.i.s.InventoryService [http-nio-8080-exec-2] saving new inventory : Inventory(id=null, skuCode=test, quantity=2)
+2023-08-30 11:18:08,493 INFO c.a.i.c.InventoryController [http-nio-8080-exec-3] Checking if test is in stock
+2023-08-30 11:18:08,494 INFO c.a.i.s.InventoryService [http-nio-8080-exec-3] Getting inventory of : test
+2023-08-30 11:18:22,363 INFO c.a.i.c.InventoryController [http-nio-8080-exec-4] Checking if test is in stock
+2023-08-30 11:18:22,363 INFO c.a.i.s.InventoryService [http-nio-8080-exec-4] Getting inventory of : test
+2023-08-30 11:18:26,115 INFO c.a.i.c.InventoryController [http-nio-8080-exec-5] Checking if test is in stock
+2023-08-30 11:18:26,115 INFO c.a.i.s.InventoryService [http-nio-8080-exec-5] Getting inventory of : test
+2023-08-30 11:18:41,926 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:18:41,930 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-30 11:18:41,937 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-30 11:18:44,432 INFO o.s.b.StartupInfoLogger [main] Starting InventoryServiceApplication using Java 17.0.7 with PID 30256 (/home/makdad/Desktop/SpringBoot/microservice-parent/inventory-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-08-30 11:18:44,435 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-30 11:18:44,893 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-30 11:18:44,945 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-08-30 11:18:45,393 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-30 11:18:45,400 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:18:45,404 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-30 11:18:45,404 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-08-30 11:18:45,473 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-30 11:18:45,474 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 994 ms
+2023-08-30 11:18:45,590 INFO o.f.c.i.l.s.Slf4jLog [main] Flyway Community Edition 9.5.1 by Redgate
+2023-08-30 11:18:45,590 INFO o.f.c.i.l.s.Slf4jLog [main] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-08-30 11:18:45,590 INFO o.f.c.i.l.s.Slf4jLog [main] 
+2023-08-30 11:18:45,823 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:postgresql://localhost:5432/inventory-service (PostgreSQL 12.16)
+2023-08-30 11:18:45,859 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 1 migration (execution time 00:00.016s)
+2023-08-30 11:18:45,891 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema "public": 1.0.0
+2023-08-30 11:18:45,892 INFO o.f.c.i.l.s.Slf4jLog [main] Schema "public" is up to date. No migration necessary.
+2023-08-30 11:18:45,958 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-30 11:18:45,984 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-30 11:18:46,161 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-30 11:18:46,183 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6113a26f
+2023-08-30 11:18:46,184 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-30 11:18:46,199 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-30 11:18:46,674 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-30 11:18:46,680 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 11:18:46,948 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 11:18:47,189 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-30 11:18:47,200 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-30 11:18:47,208 INFO o.s.b.StartupInfoLogger [main] Started InventoryServiceApplication in 3.281 seconds (process running for 3.66)
+2023-08-30 11:19:00,298 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 11:19:00,298 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-30 11:19:00,300 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-08-30 11:19:00,328 INFO c.a.i.c.InventoryController [http-nio-8080-exec-2] Checking if test is in stock
+2023-08-30 11:19:00,329 INFO c.a.i.s.InventoryService [http-nio-8080-exec-2] Getting inventory of : test
+2023-08-30 11:19:04,222 INFO c.a.i.c.InventoryController [http-nio-8080-exec-3] Checking if test is in stock
+2023-08-30 11:19:04,223 INFO c.a.i.s.InventoryService [http-nio-8080-exec-3] Getting inventory of : test
+2023-08-30 11:19:07,421 INFO c.a.i.c.InventoryController [http-nio-8080-exec-4] Checking if test is in stock
+2023-08-30 11:19:07,421 INFO c.a.i.s.InventoryService [http-nio-8080-exec-4] Getting inventory of : test
+2023-08-30 11:19:11,931 INFO c.a.i.c.InventoryController [http-nio-8080-exec-5] Checking if test is in stock
+2023-08-30 11:19:11,931 INFO c.a.i.s.InventoryService [http-nio-8080-exec-5] Getting inventory of : test

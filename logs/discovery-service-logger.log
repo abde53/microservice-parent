@@ -1,0 +1,493 @@
+2023-09-01 10:06:09,007 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 23253 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:06:09,008 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:06:09,009 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:06:09,804 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:06:09,810 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:06:09,812 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:06:09,812 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:06:09,883 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:06:09,885 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 832 ms
+2023-09-01 10:06:10,411 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:06:10,441 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:06:10,457 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:06:10,479 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.874 seconds (process running for 3.322)
+2023-09-01 10:06:18,342 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:06:18,342 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:06:18,343 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2023-09-01 10:06:55,474 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 23513 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:06:55,476 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:06:55,476 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:06:56,245 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:06:56,251 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:06:56,253 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:06:56,254 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:06:56,321 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:06:56,322 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 813 ms
+2023-09-01 10:06:56,831 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:06:56,862 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:06:56,873 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:06:56,890 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.82 seconds (process running for 3.227)
+2023-09-01 10:07:00,760 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:07:00,760 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:07:00,761 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2023-09-01 10:10:17,397 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 24230 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:10:17,398 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:10:17,399 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:10:18,288 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:10:18,294 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:10:18,296 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:10:18,297 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:10:18,399 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:10:18,401 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 959 ms
+2023-09-01 10:10:19,252 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:10:19,315 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:10:19,356 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:10:19,383 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.529 seconds (process running for 2.906)
+2023-09-01 10:10:24,001 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:10:24,002 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:10:24,003 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2023-09-01 10:12:22,210 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 24714 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:12:22,212 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:12:22,213 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:12:22,953 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:12:22,959 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:12:22,961 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:12:22,961 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:12:23,034 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:12:23,035 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 788 ms
+2023-09-01 10:12:23,551 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:12:23,586 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:12:23,601 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:12:23,623 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.816 seconds (process running for 3.197)
+2023-09-01 10:12:29,030 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:12:29,031 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:12:29,033 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2023-09-01 10:29:07,250 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 27707 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:29:07,252 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:29:07,253 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:29:08,177 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:29:08,185 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:29:08,188 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:29:08,188 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:29:08,262 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:29:08,263 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 962 ms
+2023-09-01 10:29:08,830 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:29:08,868 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:29:08,884 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:29:08,903 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 3.162 seconds (process running for 3.549)
+2023-09-01 10:30:12,516 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 28356 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:30:12,518 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:30:12,519 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:30:13,314 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:30:13,320 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:30:13,322 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:30:13,322 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:30:13,388 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:30:13,389 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 826 ms
+2023-09-01 10:30:13,929 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:30:13,965 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:30:13,976 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:30:13,995 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.913 seconds (process running for 3.327)
+2023-09-01 10:30:22,536 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:30:22,536 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:30:22,537 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 0 ms
+2023-09-01 10:38:29,420 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 29873 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:38:29,421 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:38:29,422 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:38:30,368 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:38:30,374 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:38:30,377 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:38:30,377 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:38:30,449 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:38:30,450 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 983 ms
+2023-09-01 10:38:31,039 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:38:31,085 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:38:31,101 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:38:31,120 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.404 seconds (process running for 2.789)
+2023-09-01 10:38:35,699 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:38:35,699 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:38:35,700 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2023-09-01 10:40:01,020 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 30397 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:40:01,021 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:40:01,022 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:40:01,881 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:40:01,887 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:40:01,890 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:40:01,890 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:40:01,961 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:40:01,962 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 904 ms
+2023-09-01 10:40:02,546 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: c02749e8-1ea6-4d61-a119-f239501a7232
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-01 10:40:02,620 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:40:02,629 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2987d0fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13234ac9, org.springframework.security.web.context.SecurityContextHolderFilter@8851ec, org.springframework.security.web.header.HeaderWriterFilter@3b362f1, org.springframework.web.filter.CorsFilter@7254838, org.springframework.security.web.csrf.CsrfFilter@4cc26df, org.springframework.security.web.authentication.logout.LogoutFilter@4bdb04c8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7645e64, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7dd3981e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@39374689, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e929182, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7198ab9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2913ca3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e204155, org.springframework.security.web.access.ExceptionTranslationFilter@71ad959b, org.springframework.security.web.access.intercept.AuthorizationFilter@15e8c040]
+2023-09-01 10:40:02,727 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:40:02,738 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:40:02,759 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 3.169 seconds (process running for 3.543)
+2023-09-01 10:40:09,110 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:40:09,111 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:40:09,112 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-2] Completed initialization in 1 ms
+2023-09-01 10:40:44,233 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 30650 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:40:44,235 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:40:44,235 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:40:45,092 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:40:45,098 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:40:45,100 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:40:45,100 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:40:45,162 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:40:45,163 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 894 ms
+2023-09-01 10:40:45,794 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 91e7b7a1-2d3f-4483-acef-b5d5300fc696
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-01 10:40:45,871 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:40:45,881 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17d2b646, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48ae9e8b, org.springframework.security.web.context.SecurityContextHolderFilter@1e471884, org.springframework.security.web.header.HeaderWriterFilter@7848321e, org.springframework.web.filter.CorsFilter@6eaa6b0c, org.springframework.security.web.csrf.CsrfFilter@1f42366, org.springframework.security.web.authentication.logout.LogoutFilter@7dd3981e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@182cc69e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@e521067, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4afcae7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@c6a692e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@543b0737, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5350ab17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cd2cb2, org.springframework.security.web.access.ExceptionTranslationFilter@118cbded, org.springframework.security.web.access.intercept.AuthorizationFilter@6e517c9e]
+2023-09-01 10:40:45,998 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:40:46,012 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:40:46,035 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 3.246 seconds (process running for 3.595)
+2023-09-01 10:41:04,951 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 30847 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:41:04,953 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:41:04,954 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:41:05,753 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 10:41:05,759 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:41:05,761 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:41:05,761 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:41:05,827 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:41:05,828 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 835 ms
+2023-09-01 10:41:06,414 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:41:06,451 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 10:41:06,461 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 10:41:06,481 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.311 seconds (process running for 2.708)
+2023-09-01 10:41:09,463 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:41:09,463 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:41:09,465 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2023-09-01 10:42:51,628 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 31266 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:42:51,630 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:42:51,631 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:42:52,401 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-09-01 10:42:52,407 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-09-01 10:42:52,409 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:42:52,409 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:42:52,476 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:42:52,477 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 801 ms
+2023-09-01 10:42:52,969 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:42:52,999 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-09-01 10:42:53,014 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-09-01 10:42:53,036 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.856 seconds (process running for 3.216)
+2023-09-01 10:43:04,098 INFO o.a.j.l.DirectJDKLog [http-nio-8083-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:43:04,098 INFO o.s.w.s.FrameworkServlet [http-nio-8083-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:43:04,099 INFO o.s.w.s.FrameworkServlet [http-nio-8083-exec-2] Completed initialization in 0 ms
+2023-09-01 10:43:55,498 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 31641 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:43:55,500 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 10:43:55,501 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:43:56,354 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-09-01 10:43:56,360 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-09-01 10:43:56,362 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:43:56,362 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:43:56,434 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:43:56,436 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 886 ms
+2023-09-01 10:43:57,031 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 10:43:57,073 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-09-01 10:43:57,085 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-09-01 10:43:57,097 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.164 seconds (process running for 2.534)
+2023-09-01 10:43:59,949 INFO o.a.j.l.DirectJDKLog [http-nio-8083-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 10:43:59,950 INFO o.s.w.s.FrameworkServlet [http-nio-8083-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 10:43:59,952 INFO o.s.w.s.FrameworkServlet [http-nio-8083-exec-1] Completed initialization in 2 ms
+2023-09-01 14:41:50,509 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 73681 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 14:41:50,533 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 14:41:50,535 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 14:41:51,535 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-09-01 14:41:51,543 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-09-01 14:41:51,545 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 14:41:51,546 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 14:41:51,647 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 14:41:51,649 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1060 ms
+2023-09-01 14:41:52,529 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 14:41:52,596 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-09-01 14:41:52,620 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-09-01 14:41:52,656 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.8 seconds (process running for 3.2)
+2023-09-01 14:43:15,596 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 74331 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 14:43:15,599 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 14:43:15,600 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 14:43:16,517 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-09-01 14:43:16,523 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2023-09-01 14:43:16,525 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 14:43:16,525 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 14:43:16,604 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 14:43:16,605 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 953 ms
+2023-09-01 14:43:17,309 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 14:43:17,359 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2023-09-01 14:43:17,374 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2023-09-01 14:43:17,406 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.44 seconds (process running for 2.793)
+2023-09-01 14:44:20,016 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 74673 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 14:44:20,019 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 14:44:20,020 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 14:44:21,156 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 14:44:21,164 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 14:44:21,166 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 14:44:21,167 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 14:44:21,246 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 14:44:21,247 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1172 ms
+2023-09-01 14:44:22,010 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 14:44:22,056 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 14:44:22,074 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 14:44:22,099 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 2.748 seconds (process running for 3.132)
+2023-09-01 14:44:30,279 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 14:44:30,280 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 14:44:30,282 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2023-09-01 14:50:37,887 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 76209 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 14:50:37,889 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 14:50:37,890 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 14:50:38,793 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=2689438a-9a8f-3a21-b988-0a7df938f43b
+2023-09-01 14:50:39,098 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 14:50:39,106 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 14:50:39,109 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 14:50:39,110 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 14:50:39,194 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 14:50:39,195 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1260 ms
+2023-09-01 14:50:40,015 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-01 14:50:40,016 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-01 14:50:40,128 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-01 14:50:40,129 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-01 14:50:40,988 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 14:50:41,011 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-01 14:50:41,040 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-01 14:50:41,041 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-01 14:50:41,049 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693572641048 with initial instances count: 0
+2023-09-01 14:50:41,082 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-01 14:50:41,084 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 14:50:41,157 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-01 14:50:41,159 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-01 14:50:41,171 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 14:50:41,237 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-01 14:50:41,242 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 14:50:41,255 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-01 14:50:41,257 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-01 14:50:41,258 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-01 14:50:41,258 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-01 14:50:41,259 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-01 14:50:41,280 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-01 14:50:41,293 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 14:50:41,294 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-01 14:50:41,319 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 4.115 seconds (process running for 4.543)
+2023-09-01 14:50:46,731 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 14:50:46,731 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 14:50:46,734 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2023-09-01 14:51:41,260 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:52:41,260 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:53:41,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:54:41,260 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:55:41,260 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:56:41,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:57:41,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:58:41,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 14:59:41,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:00:41,086 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 15:00:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:01:41,263 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:02:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:03:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:04:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:05:41,158 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 15:05:41,263 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:06:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:07:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:08:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:09:41,262 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:10:41,088 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 15:10:41,263 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:11:41,264 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:12:41,264 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:13:41,264 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:14:41,264 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:15:41,264 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:16:41,264 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:17:41,265 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:18:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:19:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:20:41,089 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 15:20:41,158 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 15:20:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:21:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:22:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:23:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:24:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:25:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:26:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:27:41,266 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:28:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:29:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:30:41,091 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 15:30:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:31:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:32:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:33:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:34:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:35:41,159 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 15:35:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:36:41,267 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:37:41,268 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:38:41,268 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:39:41,268 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:40:41,091 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 15:40:41,269 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:41:41,270 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:42:41,270 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:43:41,269 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:44:41,269 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:45:41,270 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:46:41,269 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:47:41,269 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:48:41,269 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:49:41,270 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:50:41,092 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 15:50:41,160 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 15:50:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:51:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:52:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:53:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:54:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:55:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:56:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:57:41,272 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:58:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 15:59:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:00:41,093 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 16:00:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:01:41,271 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:02:41,272 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:03:41,273 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:04:41,272 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:05:41,161 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 16:05:41,272 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:06:41,272 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:07:41,273 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:08:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:09:41,273 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:10:41,094 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 16:10:41,273 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:11:41,273 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:12:41,273 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:13:41,273 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:14:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:15:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:16:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:17:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:18:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:19:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:20:41,095 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 16:20:41,161 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 16:20:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:21:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:22:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:23:41,274 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:24:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:25:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:26:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:27:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:28:41,276 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:29:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:30:41,096 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 16:30:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:31:41,275 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:32:41,276 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:33:41,276 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:34:41,276 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:35:41,160 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 16:35:41,277 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:36:41,277 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:37:41,277 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:38:41,278 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:39:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:40:41,097 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 16:40:41,278 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:41:41,278 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:42:41,278 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:43:41,278 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:44:41,278 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:45:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:46:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:47:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:48:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:49:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:50:41,098 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 16:50:41,160 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 1
+2023-09-01 16:50:41,280 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:51:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:52:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:53:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:54:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:55:41,279 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 16:56:35,963 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-01 16:56:35,977 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-01 16:56:35,982 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-01 16:56:35,994 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-01 16:56:35,994 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-01 16:56:35,995 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-01 16:56:36,001 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-01 16:56:36,008 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-01 16:56:36,008 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-01 17:02:05,321 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 97453 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 17:02:05,324 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
+2023-09-01 17:02:05,329 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 17:02:06,173 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=a08cc279-fc8a-310f-b370-6c6f7c868999
+2023-09-01 17:02:06,385 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-01 17:02:06,394 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-01 17:02:06,397 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 17:02:06,397 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 17:02:06,490 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 17:02:06,491 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1074 ms
+2023-09-01 17:02:07,104 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-01 17:02:07,105 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-01 17:02:07,203 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-01 17:02:07,204 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-01 17:02:07,669 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-01 17:02:07,697 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:02:07,710 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-01 17:02:07,723 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-01 17:02:07,724 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-01 17:02:07,728 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693580527727 with initial instances count: 0
+2023-09-01 17:02:07,749 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-01 17:02:07,750 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 17:02:07,792 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-01 17:02:07,794 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-01 17:02:07,802 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:02:07,842 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-01 17:02:07,844 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-01 17:02:07,851 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-01 17:02:07,851 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-01 17:02:07,851 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-01 17:02:07,851 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-01 17:02:07,852 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-01 17:02:07,858 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-01 17:02:07,859 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-01 17:02:07,859 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-01 17:02:07,903 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 3.23 seconds (process running for 3.691)
+2023-09-01 17:02:11,294 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:02:11,295 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:02:11,297 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2023-09-01 17:03:07,852 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:04:07,852 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:05:07,853 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:06:07,854 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:07:07,853 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:08:07,854 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:09:07,854 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:10:07,855 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:11:07,856 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:12:07,751 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-01 17:12:07,855 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-01 17:12:39,246 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-01 17:12:39,261 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-01 17:12:39,265 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-01 17:12:39,272 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-01 17:12:39,272 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-01 17:12:39,272 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-01 17:12:39,287 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-01 17:12:39,294 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-01 17:12:39,295 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient

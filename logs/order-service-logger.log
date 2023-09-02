@@ -1,0 +1,205 @@
+2023-09-01 09:54:45,894 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 20653 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 09:54:45,897 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 09:54:46,616 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 09:54:46,781 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 156 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 09:54:47,307 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-09-01 09:54:47,315 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-01 09:54:47,317 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 09:54:47,318 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 09:54:47,413 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 09:54:47,415 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1464 ms
+2023-09-01 09:54:47,613 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@5fed9976]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 09:54:47,622 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f198c75cfe4f10047158f4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17972318}
+2023-09-01 09:54:47,893 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes/com/abde53/orderservice/controller/OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'inventoryInterface': No qualifying bean of type 'com.abde53.orderservice.feign.InventoryInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-01 09:54:47,898 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-09-01 09:54:47,913 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-01 09:54:47,933 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field inventoryInterface in com.abde53.orderservice.service.OrderService required a bean of type 'com.abde53.orderservice.feign.InventoryInterface' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.abde53.orderservice.feign.InventoryInterface' in your configuration.
+
+2023-09-01 09:55:03,595 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 20827 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 09:55:03,598 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 09:55:04,027 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 09:55:04,116 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 85 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 09:55:04,451 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-09-01 09:55:04,457 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-01 09:55:04,459 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 09:55:04,459 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 09:55:04,523 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 09:55:04,525 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 894 ms
+2023-09-01 09:55:04,637 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@5dbbb292]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 09:55:04,646 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f198d823c73a55e17dd603', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13333374}
+2023-09-01 09:55:04,874 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes/com/abde53/orderservice/controller/OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'inventoryInterface': No qualifying bean of type 'com.abde53.orderservice.feign.InventoryInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-01 09:55:04,876 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-09-01 09:55:04,886 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-01 09:55:04,899 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field inventoryInterface in com.abde53.orderservice.service.OrderService required a bean of type 'com.abde53.orderservice.feign.InventoryInterface' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.abde53.orderservice.feign.InventoryInterface' in your configuration.
+
+2023-09-01 09:55:26,337 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 20970 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 09:55:26,340 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 09:55:26,809 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 09:55:26,900 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 09:55:27,238 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-09-01 09:55:27,244 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-01 09:55:27,246 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 09:55:27,246 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 09:55:27,310 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 09:55:27,311 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 924 ms
+2023-09-01 09:55:27,425 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3d3a1903]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 09:55:27,435 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f198ef32ec115913744a21', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13473138}
+2023-09-01 09:55:27,620 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes/com/abde53/orderservice/controller/OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'inventoryInterface': No qualifying bean of type 'com.abde53.orderservice.feign.InventoryInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-01 09:55:27,623 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-09-01 09:55:27,633 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-01 09:55:27,646 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field inventoryInterface in com.abde53.orderservice.service.OrderService required a bean of type 'com.abde53.orderservice.feign.InventoryInterface' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.abde53.orderservice.feign.InventoryInterface' in your configuration.
+
+2023-09-01 09:55:49,923 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 21108 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 09:55:49,926 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 09:55:50,447 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 09:55:50,543 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 09:55:50,867 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-09-01 09:55:50,873 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-01 09:55:50,875 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 09:55:50,876 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 09:55:50,940 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 09:55:50,941 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 966 ms
+2023-09-01 09:55:51,060 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@798cb6d9]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 09:55:51,078 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f19907a0134e55ce160666', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19733522}
+2023-09-01 09:55:51,496 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-09-01 09:55:51,508 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-01 09:55:51,516 INFO o.s.b.StartupInfoLogger [main] Started OrderServiceApplication in 2.175 seconds (process running for 2.551)
+2023-09-01 10:29:44,798 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 28036 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 10:29:44,800 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 10:29:45,218 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 10:29:45,309 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 10:29:45,634 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-09-01 10:29:45,640 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-09-01 10:29:45,642 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 10:29:45,643 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 10:29:45,710 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 10:29:45,712 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 876 ms
+2023-09-01 10:29:45,829 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@4bf03fee]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 10:29:45,836 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f1a0f9070d6166bfd3acd0', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12571789}
+2023-09-01 10:29:46,216 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-09-01 10:29:46,226 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-09-01 10:29:46,233 INFO o.s.b.StartupInfoLogger [main] Started OrderServiceApplication in 2.001 seconds (process running for 2.429)
+2023-09-01 14:41:12,749 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 73362 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 14:41:12,755 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 14:41:13,633 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 14:41:13,808 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 168 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 14:41:14,295 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-09-01 14:41:14,306 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-09-01 14:41:14,309 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 14:41:14,310 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 14:41:14,409 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 14:41:14,411 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1529 ms
+2023-09-01 14:41:14,635 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@613f7eb7]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 14:41:14,652 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f1dbea6258603239954114', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27777324}
+2023-09-01 14:41:15,313 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-09-01 14:41:15,334 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2023-09-01 14:41:15,347 INFO o.s.b.StartupInfoLogger [main] Started OrderServiceApplication in 3.522 seconds (process running for 4.205)
+2023-09-01 14:41:41,877 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 73578 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 14:41:41,880 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 14:41:42,447 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 14:41:42,548 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 97 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 14:41:42,942 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-09-01 14:41:42,949 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-09-01 14:41:42,951 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 14:41:42,951 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 14:41:43,025 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 14:41:43,026 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1043 ms
+2023-09-01 14:41:43,144 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@1a7cb3a4]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 14:41:43,177 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f1dc07b5b0ea728ddbc4db', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36599385}
+2023-09-01 14:41:43,387 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes/com/abde53/orderservice/controller/OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'inventoryInterface': Error creating bean with name 'com.abde53.orderservice.feign.InventoryInterface': Unexpected exception during bean creation
+2023-09-01 14:41:43,390 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-09-01 14:41:43,403 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-01 14:41:43,420 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field inventoryInterface in com.abde53.orderservice.service.OrderService required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2023-09-01 14:42:09,770 INFO o.s.b.StartupInfoLogger [main] Starting OrderServiceApplication using Java 17.0.7 with PID 73932 (/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-01 14:42:09,778 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-01 14:42:10,394 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-09-01 14:42:10,514 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 116 ms. Found 2 MongoDB repository interfaces.
+2023-09-01 14:42:10,980 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2023-09-01 14:42:10,990 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-09-01 14:42:10,993 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-01 14:42:10,994 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01 14:42:11,084 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-01 14:42:11,085 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1238 ms
+2023-09-01 14:42:11,287 INFO c.m.i.d.l.SLF4JLogger [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.15.0-82-generic"}, "platform": "Java/JetBrains s.r.o./17.0.7+7-b1000.6"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@40717ed]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-09-01 14:42:11,298 INFO c.m.i.d.l.SLF4JLogger [cluster-ClusterId{value='64f1dc230c40c1552cd52d62', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25710319}
+2023-09-01 14:42:11,517 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [/home/makdad/Desktop/SpringBoot/microservice-parent/order-service/target/classes/com/abde53/orderservice/controller/OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'inventoryInterface': Error creating bean with name 'com.abde53.orderservice.feign.InventoryInterface': Unexpected exception during bean creation
+2023-09-01 14:42:11,521 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-09-01 14:42:11,538 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-01 14:42:11,561 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field inventoryInterface in com.abde53.orderservice.service.OrderService required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
