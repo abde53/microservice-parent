@@ -20,8 +20,7 @@ public class OrderService {
 
     private final OrderRepo orderRepo;
     private final OrderLineItemsRepo orderLineItemsRepo;
-    @Autowired
-     InventoryInterface inventoryInterface;
+    private final InventoryInterface inventoryInterface;
 
     public List<Order> findAll()
     {
@@ -36,9 +35,10 @@ public class OrderService {
         return this.orderRepo.save(o);
     }
 
-    public void placeOrder(Order o)
+    public List<InventoryDto> getInventories()
     {
+        log.info("Getting all inventories from Order service");
         List<InventoryDto> inventoryDtos = this.inventoryInterface.getAllInventory();
-        log.info(inventoryDtos.toString());
+        return inventoryDtos;
     }
 }

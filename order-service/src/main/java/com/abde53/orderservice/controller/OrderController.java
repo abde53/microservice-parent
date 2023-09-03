@@ -1,5 +1,6 @@
 package com.abde53.orderservice.controller;
 
+import com.abde53.orderservice.dto.InventoryDto;
 import com.abde53.orderservice.dto.OrderDto;
 import com.abde53.orderservice.dto.OrderLineItemsMapper;
 import com.abde53.orderservice.dto.OrderMapper;
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @RestController
@@ -33,6 +35,12 @@ public class OrderController {
         return orderService.addOrder(o);
     }
 
-
+    @GetMapping("getAllOrders")
+    @ResponseStatus(HttpStatus.OK)
+    public List<InventoryDto> getAllInventories()
+    {
+        log.info("Getting all InventoryDto");
+        return this.orderService.getInventories();
+    }
 
 }

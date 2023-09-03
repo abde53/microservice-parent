@@ -10,11 +10,11 @@ import java.util.List;
 @FeignClient(name = "INVENTORY-SERVICE")
 public interface InventoryInterface {
 
-    @GetMapping(value = "/isInStock")
+    /*@GetMapping(value = "/isInStock")
     @ResponseStatus(HttpStatus.OK)
-    public boolean isInStock(String skuCode, Integer quantity);
+    public boolean isInStock(String skuCode, Integer quantity);*/
 
-    @GetMapping(value = "/getAll")
+    @GetMapping(value = "/api/v1/inventory/getAll")
     @ResponseStatus(HttpStatus.OK)
     public List<InventoryDto> getAllInventory();
 }
