@@ -30,15 +30,15 @@ public class InventoryService {
 
 
 
-    public boolean isInStock(String skuCode, Integer quantity)
+    public boolean isInStock(Inventory i)
     {
-        log.info("Getting inventory of : {}", skuCode);
-        Inventory inventory = this.inventoryRepo.getInventoryBySkuCode(skuCode);
+        log.info("Getting inventory of : {}", i);
+        Inventory inventory = this.inventoryRepo.getInventoryBySkuCode(i.getSkuCode());
         if(inventory == null)
         {
             throw new NoInventoryFoundException("No Inventory found");
         }
-        if(quantity <= inventory.getQuantity())
+        if(i.getQuantity() <= inventory.getQuantity())
             return true;
         else
             return false;

@@ -1,9 +1,6 @@
 package com.abde53.orderservice.controller;
 
-import com.abde53.orderservice.dto.InventoryDto;
-import com.abde53.orderservice.dto.OrderDto;
-import com.abde53.orderservice.dto.OrderLineItemsMapper;
-import com.abde53.orderservice.dto.OrderMapper;
+import com.abde53.orderservice.dto.*;
 import com.abde53.orderservice.model.Order;
 import com.abde53.orderservice.model.OrderLineItems;
 import com.abde53.orderservice.service.OrderLineItemsService;
@@ -28,11 +25,12 @@ public class OrderController {
 
     @PostMapping("placeOrder")
     @ResponseStatus(HttpStatus.CREATED)
-    public Order placeOrder(@RequestBody OrderDto orderRequest) {
+    public OrderResponse placeOrder(@RequestBody OrderDto orderRequest) {
         log.info("Placing Order");
         Order o = OrderMapper.INSTANCE.toModel(orderRequest);
+        OrderResponse orderResponse = this.orderService.placeOrder(o);
        // o.setOrderLineItemsList(orderRequest.getOrderLineItemsList());
-        return orderService.addOrder(o);
+        return orderResponse;
     }
 
     @GetMapping("getAllOrders")

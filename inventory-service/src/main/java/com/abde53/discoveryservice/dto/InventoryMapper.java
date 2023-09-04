@@ -17,4 +17,6 @@ public interface InventoryMapper {
     InventoryDto toDto(Inventory inventory);
 
     List<InventoryDto> toDtos(List<Inventory> inventories);
+
+
 }
