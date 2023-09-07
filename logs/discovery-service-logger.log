@@ -1,587 +1,591 @@
-2023-09-03 00:00:09,087 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:01:09,087 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:02:09,088 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:03:09,103 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 15ms
-2023-09-03 00:04:08,856 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:04:09,105 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
-2023-09-03 00:05:09,106 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:06:09,113 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
-2023-09-03 00:07:09,121 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 8ms
-2023-09-03 00:08:09,122 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:08:11,873 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-03 00:08:12,015 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-03 00:08:12,023 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:08:12,041 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:08:12,042 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-03 00:08:12,046 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:08:12,055 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:08:12,083 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-03 00:08:12,086 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-03 00:08:16,581 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 18.0.1.1 with PID 10908 (C:\Users\HUAWEI\IdeaProjects\microservice-parent\discovery-server\target\classes started by HUAWEI in C:\Users\HUAWEI\IdeaProjects\microservice-parent)
-2023-09-03 00:08:16,583 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
-2023-09-03 00:08:16,584 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-03 00:08:18,069 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=daa9fd95-6f9a-33f7-83f5-6dd49be702b5
-2023-09-03 00:08:18,480 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-03 00:08:18,492 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:08:18,495 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-03 00:08:18,495 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
-2023-09-03 00:08:18,656 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-03 00:08:18,657 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2009 ms
-2023-09-03 00:08:20,081 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-03 00:08:20,084 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-03 00:08:20,411 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-03 00:08:20,412 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-03 00:08:22,160 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2023-09-03 00:08:22,216 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-03 00:08:22,239 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-03 00:08:22,265 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-03 00:08:22,265 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-03 00:08:22,275 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693692502275 with initial instances count: 0
-2023-09-03 00:08:22,347 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-03 00:08:22,350 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:08:22,376 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-03 00:08:22,378 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-03 00:08:22,391 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-03 00:08:22,492 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-03 00:08:22,495 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:08:22,508 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-03 00:08:22,510 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-03 00:08:22,510 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-03 00:08:22,511 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-03 00:08:22,511 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-03 00:08:22,522 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-03 00:08:22,529 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-03 00:08:22,530 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-03 00:08:22,803 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 7.239 seconds (process running for 8.547)
-2023-09-03 00:08:23,433 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(5)-192.168.56.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-03 00:08:23,434 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.56.1] Initializing Servlet 'dispatcherServlet'
-2023-09-03 00:08:23,436 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.56.1] Completed initialization in 2 ms
-2023-09-03 00:09:22,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:10:22,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:11:16,989 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-03 00:11:17,029 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-03 00:11:17,036 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:11:17,046 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:11:17,047 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-03 00:11:17,047 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:11:17,053 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:11:17,068 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-03 00:11:17,069 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-03 00:12:27,726 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 18.0.1.1 with PID 8244 (C:\Users\HUAWEI\IdeaProjects\microservice-parent\discovery-server\target\classes started by HUAWEI in C:\Users\HUAWEI\IdeaProjects\microservice-parent)
-2023-09-03 00:12:27,728 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
-2023-09-03 00:12:27,729 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-03 00:12:29,457 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=1fea074b-fc92-37fe-8ac0-0242458dddef
-2023-09-03 00:12:29,912 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-03 00:12:29,924 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:12:29,927 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-03 00:12:29,927 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
-2023-09-03 00:12:30,222 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-03 00:12:30,223 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2422 ms
-2023-09-03 00:12:31,931 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-03 00:12:31,933 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-03 00:12:32,330 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-03 00:12:32,330 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-03 00:12:34,192 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-03 00:12:34,222 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-03 00:12:34,272 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-03 00:12:34,273 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-03 00:12:34,287 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693692754285 with initial instances count: 0
-2023-09-03 00:12:34,361 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-03 00:12:34,363 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:12:34,384 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-03 00:12:34,386 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-03 00:12:34,404 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-03 00:12:34,580 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-03 00:12:34,584 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:12:34,607 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-03 00:12:34,608 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-03 00:12:34,608 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-03 00:12:34,609 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-03 00:12:34,609 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-03 00:12:34,629 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-03 00:12:34,637 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-03 00:12:34,638 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-03 00:12:35,031 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 8.548 seconds (process running for 10.544)
-2023-09-03 00:12:35,470 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(3)-192.168.56.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-03 00:12:35,470 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(3)-192.168.56.1] Initializing Servlet 'dispatcherServlet'
-2023-09-03 00:12:35,472 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(3)-192.168.56.1] Completed initialization in 1 ms
-2023-09-03 00:13:34,610 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:13:35,890 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-03 00:13:35,932 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-03 00:13:35,938 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:13:35,950 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:13:35,950 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-03 00:13:35,950 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:13:35,957 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:13:35,969 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-03 00:13:35,971 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-03 00:14:28,203 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 18.0.1.1 with PID 8924 (C:\Users\HUAWEI\IdeaProjects\microservice-parent\discovery-server\target\classes started by HUAWEI in C:\Users\HUAWEI\IdeaProjects\microservice-parent)
-2023-09-03 00:14:28,207 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-09-03 00:14:28,209 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-03 00:14:30,290 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=48826981-1094-3bd7-94e4-5c014fec673e
-2023-09-03 00:14:30,772 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-03 00:14:30,786 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:14:30,786 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-03 00:14:30,787 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-09-03 00:14:31,056 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-03 00:14:31,058 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2746 ms
-2023-09-03 00:14:32,468 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-03 00:14:32,472 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-03 00:14:32,810 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-03 00:14:32,811 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-03 00:14:34,729 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2023-09-03 00:14:34,903 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-03 00:14:34,953 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-03 00:14:35,000 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-03 00:14:35,000 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-03 00:14:35,016 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693692875014 with initial instances count: 0
-2023-09-03 00:14:35,063 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-03 00:14:35,065 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:14:35,085 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-03 00:14:35,086 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-03 00:14:35,097 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-03 00:14:35,209 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-03 00:14:35,212 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:14:35,225 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-03 00:14:35,226 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-03 00:14:35,226 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-03 00:14:35,226 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-03 00:14:35,227 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-03 00:14:35,239 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-03 00:14:35,263 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-03 00:14:35,264 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-03 00:14:35,655 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 8.974 seconds (process running for 11.303)
-2023-09-03 00:14:36,346 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(2)-192.168.56.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-03 00:14:36,347 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(2)-192.168.56.1] Initializing Servlet 'dispatcherServlet'
-2023-09-03 00:14:36,349 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(2)-192.168.56.1] Completed initialization in 2 ms
-2023-09-03 00:15:35,228 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:16:35,229 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:17:03,807 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-03 00:17:03,848 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-03 00:17:03,854 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:17:03,865 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:17:03,865 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-03 00:17:03,865 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:17:03,871 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:17:04,240 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-03 00:17:04,241 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-03 00:17:12,714 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 18.0.1.1 with PID 22412 (C:\Users\HUAWEI\IdeaProjects\microservice-parent\discovery-server\target\classes started by HUAWEI in C:\Users\HUAWEI\IdeaProjects\microservice-parent)
-2023-09-03 00:17:12,717 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-09-03 00:17:12,718 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-03 00:17:14,386 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=48826981-1094-3bd7-94e4-5c014fec673e
-2023-09-03 00:17:14,806 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-03 00:17:14,818 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:17:14,819 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-03 00:17:14,820 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-09-03 00:17:15,049 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-03 00:17:15,049 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2266 ms
-2023-09-03 00:17:16,323 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-03 00:17:16,324 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-03 00:17:16,575 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-03 00:17:16,576 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-03 00:17:18,349 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2023-09-03 00:17:18,423 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-03 00:17:18,454 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-03 00:17:18,500 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-03 00:17:18,500 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-03 00:17:18,532 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693693038530 with initial instances count: 0
-2023-09-03 00:17:18,626 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-03 00:17:18,630 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:17:18,654 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-03 00:17:18,655 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-03 00:17:18,669 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-03 00:17:18,863 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-03 00:17:18,866 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-03 00:17:18,881 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-03 00:17:18,881 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-03 00:17:18,883 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-03 00:17:18,883 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-03 00:17:18,883 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-03 00:17:18,904 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-03 00:17:18,916 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-03 00:17:18,917 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-03 00:17:19,210 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 7.756 seconds (process running for 9.761)
-2023-09-03 00:17:19,706 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(5)-192.168.56.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-03 00:17:19,707 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.56.1] Initializing Servlet 'dispatcherServlet'
-2023-09-03 00:17:19,710 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.56.1] Completed initialization in 2 ms
-2023-09-03 00:18:18,890 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:19:18,891 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
-2023-09-03 00:20:18,891 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:21:18,904 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 13ms
-2023-09-03 00:22:18,904 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:23:18,918 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
-2023-09-03 00:24:18,924 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
-2023-09-03 00:25:18,934 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
-2023-09-03 00:26:18,944 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
-2023-09-03 00:27:18,642 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:27:18,953 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
-2023-09-03 00:28:18,954 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:29:18,966 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
-2023-09-03 00:29:21,202 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance INVENTORY-SERVICE/LAPTOP-U3LDJ857:inventory-service:8080 with status UP (replication=false)
-2023-09-03 00:30:18,974 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 8ms
-2023-09-03 00:31:18,974 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:32:18,670 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 3
-2023-09-03 00:32:18,981 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 7ms
-2023-09-03 00:33:18,993 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
-2023-09-03 00:34:18,998 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
-2023-09-03 00:35:19,004 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
-2023-09-03 00:36:19,203 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 198ms
-2023-09-03 00:37:18,677 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:37:19,203 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:37:47,757 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance PRODUCT-SERVICE/LAPTOP-U3LDJ857:product-service:8082 with status UP (replication=false)
-2023-09-03 00:38:19,204 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:39:19,204 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:40:19,204 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:40:49,376 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status UP (replication=false)
-2023-09-03 00:41:19,205 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
-2023-09-03 00:42:19,222 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 16ms
-2023-09-03 00:43:19,223 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:44:19,223 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:44:56,533 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status DOWN (replication=false)
-2023-09-03 00:44:59,668 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 (replication=false)
-2023-09-03 00:45:19,224 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:45:24,696 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status UP (replication=false)
-2023-09-03 00:46:19,224 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:47:18,678 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
-2023-09-03 00:47:18,686 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 00:47:19,224 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 00:47:48,674 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-03 00:47:48,871 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-03 00:47:48,893 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:47:48,914 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:47:48,915 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-03 00:47:48,920 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 00:47:48,929 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 00:47:48,960 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-03 00:47:48,962 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-03 11:00:31,273 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 18.0.1.1 with PID 18344 (C:\Users\HUAWEI\IdeaProjects\microservice-parent\discovery-server\target\classes started by HUAWEI in C:\Users\HUAWEI\IdeaProjects\microservice-parent)
-2023-09-03 11:00:31,278 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-09-03 11:00:31,280 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-03 11:00:33,940 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=48826981-1094-3bd7-94e4-5c014fec673e
-2023-09-03 11:00:34,422 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-03 11:00:34,438 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-03 11:00:34,439 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-03 11:00:34,440 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-09-03 11:00:34,846 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-03 11:00:34,846 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3459 ms
-2023-09-03 11:00:36,870 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-03 11:00:36,873 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-03 11:00:37,622 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-03 11:00:37,623 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-03 11:00:40,150 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2023-09-03 11:00:40,231 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-03 11:00:40,266 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-03 11:00:40,306 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-03 11:00:40,306 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-03 11:00:40,327 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693731640324 with initial instances count: 0
-2023-09-03 11:00:40,412 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-03 11:00:40,415 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 11:00:40,437 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-03 11:00:40,439 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-03 11:00:40,452 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-03 11:00:40,544 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-03 11:00:40,548 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-03 11:00:40,562 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-03 11:00:40,564 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-03 11:00:40,564 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-03 11:00:40,564 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-03 11:00:40,565 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-03 11:00:40,582 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-03 11:00:40,613 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-03 11:00:40,615 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-03 11:00:41,068 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 11.217 seconds (process running for 13.775)
-2023-09-03 11:00:41,917 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(6)-192.168.56.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-03 11:00:41,918 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(6)-192.168.56.1] Initializing Servlet 'dispatcherServlet'
-2023-09-03 11:00:41,923 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(6)-192.168.56.1] Completed initialization in 4 ms
-2023-09-03 11:00:52,062 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance INVENTORY-SERVICE/LAPTOP-U3LDJ857:inventory-service:8080 with status UP (replication=false)
-2023-09-03 11:00:57,426 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status UP (replication=false)
-2023-09-03 11:01:02,820 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance PRODUCT-SERVICE/LAPTOP-U3LDJ857:product-service:8082 with status UP (replication=false)
-2023-09-03 11:01:40,566 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 11:02:40,567 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-03 11:03:40,574 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 7ms
-2023-09-03 11:04:33,455 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance INVENTORY-SERVICE/LAPTOP-U3LDJ857:inventory-service:8080 with status DOWN (replication=false)
-2023-09-03 11:04:33,454 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status DOWN (replication=false)
-2023-09-03 11:04:33,468 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance PRODUCT-SERVICE/LAPTOP-U3LDJ857:product-service:8082 with status DOWN (replication=false)
-2023-09-03 11:04:33,467 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-03 11:04:33,655 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-03 11:04:33,667 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 11:04:33,684 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 11:04:33,685 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-03 11:04:33,686 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 11:04:33,698 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 11:04:33,814 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-03 11:04:33,816 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-03 11:05:26,236 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 18.0.1.1 with PID 2540 (C:\Users\HUAWEI\IdeaProjects\microservice-parent\discovery-server\target\classes started by HUAWEI in C:\Users\HUAWEI\IdeaProjects\microservice-parent)
-2023-09-03 11:05:26,240 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-09-03 11:05:26,241 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-03 11:05:27,785 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=48826981-1094-3bd7-94e4-5c014fec673e
-2023-09-03 11:05:28,135 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-03 11:05:28,147 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-03 11:05:28,148 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-03 11:05:28,148 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-09-03 11:05:28,301 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-03 11:05:28,301 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1998 ms
-2023-09-03 11:05:29,746 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-03 11:05:29,747 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-03 11:05:29,965 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-03 11:05:29,966 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-03 11:05:31,344 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2023-09-03 11:05:31,392 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-03 11:05:31,415 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-03 11:05:31,447 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-03 11:05:31,447 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-03 11:05:31,456 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693731931455 with initial instances count: 0
-2023-09-03 11:05:31,503 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-03 11:05:31,505 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-03 11:05:31,523 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-03 11:05:31,524 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-03 11:05:31,535 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-03 11:05:31,710 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-03 11:05:31,714 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-03 11:05:31,726 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-03 11:05:31,726 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-03 11:05:31,726 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-03 11:05:31,727 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-03 11:05:31,727 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-03 11:05:31,736 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-03 11:05:31,744 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-03 11:05:31,745 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-03 11:05:31,998 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 6.95 seconds (process running for 8.451)
-2023-09-03 11:05:32,411 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(1)-192.168.56.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-03 11:05:32,412 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(1)-192.168.56.1] Initializing Servlet 'dispatcherServlet'
-2023-09-03 11:05:32,415 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(1)-192.168.56.1] Completed initialization in 3 ms
-2023-09-03 11:05:36,568 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status DOWN (replication=false)
-2023-09-03 11:05:36,671 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 (replication=false)
-2023-09-03 11:05:44,775 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status UP (replication=false)
-2023-09-03 11:05:53,436 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance ORDER-SERVICE/LAPTOP-U3LDJ857:order-service:8081 with status DOWN (replication=false)
-2023-09-03 11:05:54,965 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-03 11:05:54,997 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-03 11:05:55,003 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 11:05:55,014 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 11:05:55,014 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-03 11:05:55,015 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-03 11:05:55,020 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-03 11:05:55,030 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-03 11:05:55,031 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-04 10:04:31,474 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 26658 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
-2023-09-04 10:04:31,476 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.10, Spring v6.0.11
-2023-09-04 10:04:31,478 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-04 10:04:32,395 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=a08cc279-fc8a-310f-b370-6c6f7c868999
-2023-09-04 10:04:32,914 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-04 10:04:32,921 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-04 10:04:32,923 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-04 10:04:32,924 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
-2023-09-04 10:04:33,007 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-04 10:04:33,008 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1486 ms
-2023-09-04 10:04:33,686 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-04 10:04:33,687 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-04 10:04:33,793 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-04 10:04:33,794 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-04 10:04:34,569 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2023-09-04 10:04:34,601 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-04 10:04:34,615 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-04 10:04:34,638 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-04 10:04:34,638 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-04 10:04:34,646 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693814674645 with initial instances count: 0
-2023-09-04 10:04:34,672 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-04 10:04:34,674 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 10:04:34,726 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-04 10:04:34,727 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-04 10:04:34,737 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-04 10:04:34,769 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-04 10:04:34,772 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-04 10:04:34,780 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-04 10:04:34,781 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-04 10:04:34,782 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-04 10:04:34,782 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-04 10:04:34,782 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-04 10:04:34,789 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-04 10:04:34,790 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-04 10:04:34,791 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-04 10:04:34,828 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 3.959 seconds (process running for 4.545)
-2023-09-04 10:04:58,353 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-04 10:04:58,353 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
-2023-09-04 10:04:58,355 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
-2023-09-04 10:04:58,577 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status UP (replication=false)
-2023-09-04 10:05:07,437 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 10:05:34,783 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:06:34,783 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:07:34,783 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:08:34,784 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:09:34,784 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:10:34,784 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:11:34,784 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:12:34,784 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:13:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:14:34,675 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 10:14:34,784 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:15:18,028 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:8082 with status UP (replication=false)
-2023-09-04 10:15:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:16:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:17:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:18:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:19:34,727 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
-2023-09-04 10:19:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:20:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:21:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:22:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:23:34,785 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:24:34,676 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 10:24:34,786 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:25:34,786 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:26:34,788 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
-2023-09-04 10:27:34,788 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:28:34,788 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:29:34,788 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:30:34,788 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:31:34,788 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:32:34,788 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:33:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:34:34,677 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 10:34:34,726 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
-2023-09-04 10:34:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:35:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:36:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:37:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:38:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:39:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:40:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:41:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:42:34,790 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:43:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:44:34,678 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 10:44:34,790 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:45:34,789 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 10:45:39,656 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
-2023-09-04 10:45:39,671 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
-2023-09-04 10:45:39,676 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-04 10:45:39,688 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-04 10:45:39,688 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
-2023-09-04 10:45:39,689 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
-2023-09-04 10:45:39,699 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
-2023-09-04 10:45:39,706 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
-2023-09-04 10:45:39,708 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
-2023-09-04 11:05:42,850 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 38685 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
-2023-09-04 11:05:42,854 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-09-04 11:05:42,855 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-04 11:05:44,210 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
-2023-09-04 11:05:44,607 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
-2023-09-04 11:05:44,618 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
-2023-09-04 11:05:44,619 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2023-09-04 11:05:44,620 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-09-04 11:05:44,738 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-09-04 11:05:44,741 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1820 ms
-2023-09-04 11:05:45,857 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
-2023-09-04 11:05:45,859 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
-2023-09-04 11:05:46,019 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
-2023-09-04 11:05:46,019 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
-2023-09-04 11:05:47,070 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
-2023-09-04 11:05:47,140 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-09-04 11:05:47,168 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
-2023-09-04 11:05:47,208 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
-2023-09-04 11:05:47,209 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
-2023-09-04 11:05:47,222 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693818347221 with initial instances count: 0
-2023-09-04 11:05:47,273 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
-2023-09-04 11:05:47,276 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 11:05:47,368 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
-2023-09-04 11:05:47,371 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
-2023-09-04 11:05:47,388 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-09-04 11:05:47,466 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
-2023-09-04 11:05:47,469 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
-2023-09-04 11:05:47,496 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
-2023-09-04 11:05:47,497 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
-2023-09-04 11:05:47,503 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
-2023-09-04 11:05:47,504 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
-2023-09-04 11:05:47,505 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
-2023-09-04 11:05:47,517 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
-2023-09-04 11:05:47,530 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
-2023-09-04 11:05:47,532 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
-2023-09-04 11:05:47,605 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 5.638 seconds (process running for 6.243)
-2023-09-04 11:06:04,548 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-09-04 11:06:04,548 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
-2023-09-04 11:06:04,550 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
-2023-09-04 11:06:04,774 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status UP (replication=false)
-2023-09-04 11:06:47,506 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:06:53,610 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:8082 with status UP (replication=false)
-2023-09-04 11:07:47,506 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:08:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:09:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:10:13,005 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 11:10:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:11:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:12:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:13:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:14:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:15:47,278 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 11:15:47,507 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:16:47,508 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:17:47,508 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:18:47,509 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:19:47,509 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:20:19,864 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status DOWN (replication=false)
-2023-09-04 11:20:22,882 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:8081 (replication=false)
-2023-09-04 11:20:27,916 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 11:20:47,369 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
-2023-09-04 11:20:47,510 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:21:47,509 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:22:47,510 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:23:47,509 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:24:47,510 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:25:47,278 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 11:25:47,510 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:26:38,086 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status DOWN (replication=false)
-2023-09-04 11:26:41,101 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:8081 (replication=false)
-2023-09-04 11:26:46,140 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 11:26:47,511 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:27:47,511 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:28:47,511 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:29:47,512 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:30:23,322 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status DOWN (replication=false)
-2023-09-04 11:30:26,348 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 (replication=false)
-2023-09-04 11:30:33,577 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status UP (replication=false)
-2023-09-04 11:30:36,108 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status DOWN (replication=false)
-2023-09-04 11:30:39,129 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:8081 (replication=false)
-2023-09-04 11:30:44,794 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 11:30:47,512 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:31:47,512 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:32:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:33:27,644 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status DOWN (replication=false)
-2023-09-04 11:33:30,666 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 (replication=false)
-2023-09-04 11:33:37,257 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status UP (replication=false)
-2023-09-04 11:33:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:34:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:35:47,279 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 11:35:47,369 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
-2023-09-04 11:35:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:36:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:37:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:38:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:39:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:40:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:41:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:42:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:43:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:44:43,481 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status DOWN (replication=false)
-2023-09-04 11:44:46,495 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:8081 (replication=false)
-2023-09-04 11:44:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:44:56,679 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 11:45:47,280 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 11:45:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:46:19,966 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status DOWN (replication=false)
-2023-09-04 11:46:22,992 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:8081 (replication=false)
-2023-09-04 11:46:47,513 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:47:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:48:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:49:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:50:09,532 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 11:50:47,369 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
-2023-09-04 11:50:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:51:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:52:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:53:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:54:20,673 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status DOWN (replication=false)
-2023-09-04 11:54:23,694 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:8081 (replication=false)
-2023-09-04 11:54:28,216 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance ORDER-SERVICE/192.168.253.221:order-service:8081 with status UP (replication=false)
-2023-09-04 11:54:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
-2023-09-04 11:55:47,281 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
-2023-09-04 11:55:47,514 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 10:58:29,280 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 34508 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 10:58:29,284 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 10:58:29,285 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 10:58:30,346 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 10:58:30,617 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 10:58:30,626 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 10:58:30,628 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 10:58:30,628 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 10:58:30,710 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 10:58:30,712 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1385 ms
+2023-09-06 10:58:31,574 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 10:58:31,575 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 10:58:31,699 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 10:58:31,699 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 10:58:32,462 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 10:58:32,516 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 10:58:32,536 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 10:58:32,566 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 10:58:32,566 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 10:58:32,576 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693990712575 with initial instances count: 0
+2023-09-06 10:58:32,609 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 10:58:32,610 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 10:58:32,657 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 10:58:32,659 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 10:58:32,670 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 10:58:32,724 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 10:58:32,728 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 10:58:32,741 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 10:58:32,741 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 10:58:32,741 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 10:58:32,742 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 10:58:32,742 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 10:58:32,744 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 10:58:32,745 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 10:58:32,750 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 10:58:32,772 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 4.176 seconds (process running for 4.845)
+2023-09-06 10:59:10,236 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 10:59:10,236 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-06 10:59:10,238 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2023-09-06 10:59:10,465 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status UP (replication=false)
+2023-09-06 10:59:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:00:13,657 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 with status DOWN (replication=false)
+2023-09-06 11:00:16,682 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Cancelled instance INVENTORY-SERVICE/192.168.253.221:inventory-service:8080 (replication=false)
+2023-09-06 11:00:23,733 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status UP (replication=false)
+2023-09-06 11:00:32,742 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:00:54,084 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:01:09,229 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:01:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:02:32,742 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:02:57,971 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:03:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:04:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:05:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:06:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:07:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:07:57,053 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:08:02,074 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:08:07,122 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:08:32,611 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:08:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:09:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:10:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:11:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:11:56,847 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:12:01,868 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:12:06,363 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:12:32,743 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:13:17,549 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 11:13:17,561 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 11:13:17,566 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:13:17,575 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:13:17,575 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 11:13:17,576 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:13:17,589 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:13:17,595 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 11:13:17,599 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-06 11:13:20,476 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 36671 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 11:13:20,479 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 11:13:20,480 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 11:13:21,499 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 11:13:21,770 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 11:13:21,780 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:13:21,781 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 11:13:21,781 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 11:13:21,856 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 11:13:21,858 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1331 ms
+2023-09-06 11:13:22,546 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 11:13:22,547 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 11:13:22,684 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 11:13:22,685 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 11:13:23,427 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 11:13:23,471 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 11:13:23,493 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 11:13:23,515 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 11:13:23,516 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 11:13:23,523 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693991603522 with initial instances count: 0
+2023-09-06 11:13:23,560 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 11:13:23,562 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:13:23,633 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 11:13:23,635 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 11:13:23,649 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 11:13:23,695 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 11:13:23,710 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:13:23,716 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 11:13:23,717 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 11:13:23,717 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 11:13:23,718 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 11:13:23,718 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 11:13:23,727 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 11:13:23,727 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 11:13:23,728 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 11:13:23,813 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 4.029 seconds (process running for 4.465)
+2023-09-06 11:13:23,930 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 11:13:23,931 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-06 11:13:23,932 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2023-09-06 11:13:24,011 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:13:24,011 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-1] Not Found (Renew): INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:13:24,132 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:13:24,143 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-4] Not Found (Renew): INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:13:24,194 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:13:24,195 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-5] Not Found (Renew): ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:13:24,234 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:13:24,235 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-8] Not Found (Renew): ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:13:27,634 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY/192.168.253.221:api-gateway
+2023-09-06 11:13:27,634 INFO c.n.e.r.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-GATEWAY - 192.168.253.221:api-gateway
+2023-09-06 11:13:31,745 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:13:39,344 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:13:39,344 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-1] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:13:39,371 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:13:39,372 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-6] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:13:54,196 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:13:54,197 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-2] Not Found (Renew): INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:13:54,258 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:13:54,258 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-1] Not Found (Renew): ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:14:01,666 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status DOWN (replication=false)
+2023-09-06 11:14:01,679 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status DOWN (replication=false)
+2023-09-06 11:14:01,707 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status DOWN (replication=false)
+2023-09-06 11:14:04,709 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 (replication=false)
+2023-09-06 11:14:04,719 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:0 (replication=false)
+2023-09-06 11:14:04,738 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance PRODUCT-SERVICE/192.168.253.221:product-service:0 (replication=false)
+2023-09-06 11:14:18,296 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status UP (replication=false)
+2023-09-06 11:14:20,114 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:14:23,719 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:14:25,062 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:15:23,720 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:16:23,719 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:16:48,668 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:16:48,679 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 11:16:48,692 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 11:16:48,697 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:16:48,709 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:16:48,709 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 11:16:48,710 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:16:48,719 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:16:48,734 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 11:16:48,736 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-06 11:16:50,732 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 37500 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 11:16:50,735 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 11:16:50,737 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 11:16:52,478 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 11:16:53,048 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 11:16:53,063 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:16:53,065 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 11:16:53,065 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 11:16:53,228 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 11:16:53,230 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2441 ms
+2023-09-06 11:16:54,936 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 11:16:54,939 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 11:16:55,192 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 11:16:55,193 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 11:16:56,798 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 11:16:56,922 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 11:16:56,973 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 11:16:57,038 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 11:16:57,043 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 11:16:57,057 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693991817056 with initial instances count: 0
+2023-09-06 11:16:57,242 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 11:16:57,245 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:16:57,510 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 11:16:57,516 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 11:16:57,574 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 11:16:57,737 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 11:16:57,745 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:16:57,816 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 11:16:57,817 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 11:16:57,823 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 11:16:57,830 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 11:16:57,836 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 11:16:57,863 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 11:16:57,957 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 11:16:57,959 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 11:16:57,994 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 8.019 seconds (process running for 8.518)
+2023-09-06 11:17:04,435 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 11:17:04,436 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-06 11:17:04,442 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 5 ms
+2023-09-06 11:17:05,212 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:17:10,873 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status UP (replication=false)
+2023-09-06 11:17:13,521 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:17:19,509 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:17:57,839 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:18:57,840 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:19:10,095 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:19:15,115 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:19:20,801 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:19:55,395 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:19:57,839 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:20:00,413 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:20:05,963 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:20:57,840 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:21:11,499 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:21:11,507 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 11:21:11,521 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 11:21:11,525 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:21:11,535 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:21:11,535 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 11:21:11,536 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:21:11,542 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:21:11,551 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 11:21:11,552 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-06 11:21:19,272 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 38642 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 11:21:19,275 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 11:21:19,276 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 11:21:20,433 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 11:21:20,702 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 11:21:20,711 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:21:20,712 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 11:21:20,713 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 11:21:20,793 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 11:21:20,794 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1463 ms
+2023-09-06 11:21:21,581 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 11:21:21,582 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 11:21:21,697 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 11:21:21,698 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 11:21:22,404 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 11:21:22,448 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 11:21:22,467 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 11:21:22,487 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 11:21:22,488 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 11:21:22,494 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693992082492 with initial instances count: 0
+2023-09-06 11:21:22,526 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 11:21:22,528 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:21:22,586 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 11:21:22,588 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 11:21:22,601 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 11:21:22,668 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 11:21:22,671 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:21:22,678 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 11:21:22,678 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 11:21:22,678 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 11:21:22,678 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 11:21:22,679 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 11:21:22,689 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 11:21:22,692 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 11:21:22,693 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 11:21:22,723 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 4.138 seconds (process running for 4.588)
+2023-09-06 11:21:34,498 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 11:21:34,499 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-06 11:21:34,504 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 3 ms
+2023-09-06 11:21:35,367 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:21:45,507 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status UP (replication=false)
+2023-09-06 11:21:48,083 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:21:53,606 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:22:22,679 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:23:22,679 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:24:22,679 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:25:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:26:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:27:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:28:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:29:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:30:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:31:00,605 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:31:05,625 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:31:10,338 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:31:22,529 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:31:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:32:00,858 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:32:09,471 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:32:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:33:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:34:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:35:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:36:22,586 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 8
+2023-09-06 11:36:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:37:22,681 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:38:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:39:16,759 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:39:21,790 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:39:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:39:27,027 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:40:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:40:24,726 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:40:29,743 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:40:33,545 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:41:22,530 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:41:22,680 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:42:22,595 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:42:22,603 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 11:42:22,637 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 11:42:22,659 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:42:22,703 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:42:22,703 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 11:42:22,704 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:42:22,735 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:42:22,750 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 11:42:22,752 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-06 11:46:41,996 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 41450 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 11:46:42,008 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 11:46:42,010 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 11:46:43,718 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 11:46:44,326 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 11:46:44,346 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:46:44,348 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 11:46:44,348 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 11:46:44,675 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 11:46:44,679 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2511 ms
+2023-09-06 11:46:46,902 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 11:46:46,907 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 11:46:47,237 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 11:46:47,241 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 11:46:49,421 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 11:46:49,521 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 11:46:49,589 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 11:46:49,643 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 11:46:49,650 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 11:46:49,672 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693993609669 with initial instances count: 0
+2023-09-06 11:46:49,790 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 11:46:49,802 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:46:50,002 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 11:46:50,014 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 11:46:50,062 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 11:46:50,218 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 11:46:50,231 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:46:50,255 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 11:46:50,255 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 11:46:50,256 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 11:46:50,256 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 11:46:50,257 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 11:46:50,288 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 11:46:50,289 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 11:46:50,290 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 11:46:50,382 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 9.484 seconds (process running for 10.164)
+2023-09-06 11:47:01,438 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 11:47:01,453 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-06 11:47:01,456 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2023-09-06 11:47:02,296 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status UP (replication=false)
+2023-09-06 11:47:02,513 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:47:09,449 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:47:14,183 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:47:50,260 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:48:50,260 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:49:50,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:49:58,052 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:50:50,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:51:34,395 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:51:50,261 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:51:52,923 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 11:51:52,934 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 11:51:52,939 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:51:52,946 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:51:52,947 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 11:51:52,947 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 11:51:52,952 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 11:51:52,957 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 11:51:52,958 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-06 11:51:55,477 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 42613 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 11:51:55,480 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 11:51:55,482 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 11:51:56,789 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 11:51:57,139 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 11:51:57,150 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:51:57,151 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 11:51:57,151 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 11:51:57,262 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 11:51:57,265 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1686 ms
+2023-09-06 11:51:58,201 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 11:51:58,203 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 11:51:58,414 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 11:51:58,415 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 11:51:59,321 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 11:51:59,369 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 11:51:59,391 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 11:51:59,416 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 11:51:59,417 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 11:51:59,424 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693993919423 with initial instances count: 0
+2023-09-06 11:51:59,461 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 11:51:59,465 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 11:51:59,542 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 11:51:59,544 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 11:51:59,561 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 11:51:59,626 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 11:51:59,629 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 11:51:59,641 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 11:51:59,642 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 11:51:59,643 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 11:51:59,643 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 11:51:59,643 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 11:51:59,645 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 11:51:59,662 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 11:51:59,684 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 11:51:59,701 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 5.281 seconds (process running for 5.959)
+2023-09-06 11:52:01,911 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 11:52:01,911 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-06 11:52:01,913 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 1 ms
+2023-09-06 11:52:02,026 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:52:02,026 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-2] Not Found (Renew): INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:52:02,170 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:52:02,170 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-4] Not Found (Renew): INVENTORY-SERVICE - 192.168.253.221:inventory-service:0
+2023-09-06 11:52:02,344 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - 192.168.253.221:api-gateway
+2023-09-06 11:52:02,345 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-5] Not Found (Renew): API-GATEWAY - 192.168.253.221:api-gateway
+2023-09-06 11:52:02,375 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - 192.168.253.221:api-gateway
+2023-09-06 11:52:02,376 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-6] Not Found (Renew): API-GATEWAY - 192.168.253.221:api-gateway
+2023-09-06 11:52:04,357 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:52:04,358 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-3] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:52:04,378 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:52:04,378 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-2] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:52:09,393 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:52:09,393 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-6] Not Found (Renew): ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:52:09,419 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: lease doesn't exist, registering resource: ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:52:09,419 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-9] Not Found (Renew): ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:52:10,203 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] There is an existing lease and the existing lease's dirty timestamp 1693993930131 is greater than the one that is being registered 1693993930101
+2023-09-06 11:52:10,205 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Using the existing instanceInfo instead of the new instanceInfo as the registrant
+2023-09-06 11:52:10,209 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status DOWN (replication=false)
+2023-09-06 11:52:10,210 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status DOWN (replication=false)
+2023-09-06 11:52:10,212 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status DOWN (replication=false)
+2023-09-06 11:52:10,209 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status DOWN (replication=false)
+2023-09-06 11:52:10,215 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status DOWN (replication=false)
+2023-09-06 11:52:10,226 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:0 (replication=false)
+2023-09-06 11:52:10,230 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: ORDER-SERVICE/192.168.253.221:order-service:0
+2023-09-06 11:52:10,231 INFO c.n.e.r.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 11:52:10,238 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 (replication=false)
+2023-09-06 11:52:13,296 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance PRODUCT-SERVICE/192.168.253.221:product-service:0 (replication=false)
+2023-09-06 11:52:13,306 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: PRODUCT-SERVICE/192.168.253.221:product-service:0
+2023-09-06 11:52:13,306 INFO c.n.e.r.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 11:52:25,454 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status UP (replication=false)
+2023-09-06 11:52:27,378 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:52:32,099 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 11:52:32,610 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:52:37,110 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Cancelled instance API-GATEWAY/192.168.253.221:api-gateway (replication=false)
+2023-09-06 11:52:42,995 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 11:52:54,956 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 11:52:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:53:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:54:01,106 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 11:54:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:55:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:56:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:57:59,645 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:58:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 11:59:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 12:00:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 12:01:19,121 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status DOWN (replication=false)
+2023-09-06 12:01:22,161 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance PRODUCT-SERVICE/192.168.253.221:product-service:0 (replication=false)
+2023-09-06 12:01:31,131 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:01:31,132 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-2] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:01:31,160 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:01:31,160 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-7] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:01:33,538 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status DOWN (replication=false)
+2023-09-06 12:01:35,360 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status DOWN (replication=false)
+2023-09-06 12:01:36,564 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance ORDER-SERVICE/192.168.253.221:order-service:0 (replication=false)
+2023-09-06 12:01:38,378 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] DS: Registry: cancel failed because Lease is not registered for: ORDER-SERVICE/192.168.253.221:order-service:0
+2023-09-06 12:01:38,378 INFO c.n.e.r.InstanceResource [http-nio-8761-exec-10] Not Found (Cancel): ORDER-SERVICE - 192.168.253.221:order-service:0
+2023-09-06 12:01:50,356 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 12:01:59,466 WARN c.n.e.c.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 12:01:59,644 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 12:02:01,182 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:02:01,183 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-3] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:02:18,251 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 12:02:31,197 WARN c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] DS: Registry: lease doesn't exist, registering resource: PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:02:31,197 WARN c.n.e.r.InstanceResource [http-nio-8761-exec-10] Not Found (Renew): PRODUCT-SERVICE - 192.168.253.221:product-service:0
+2023-09-06 12:02:37,149 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status DOWN (replication=false)
+2023-09-06 12:02:40,171 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance PRODUCT-SERVICE/192.168.253.221:product-service:0 (replication=false)
+2023-09-06 12:02:52,767 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 12:02:55,200 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 12:02:55,213 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 12:02:55,217 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 12:02:55,232 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 12:02:55,232 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 12:02:55,233 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 12:02:55,238 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 12:02:55,246 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 12:02:55,247 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-06 12:02:57,324 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 44562 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 12:02:57,326 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 12:02:57,327 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 12:02:58,501 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 12:02:59,012 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 12:02:59,030 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 12:02:59,034 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 12:02:59,035 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 12:02:59,181 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 12:02:59,184 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1792 ms
+2023-09-06 12:03:00,928 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 12:03:00,931 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 12:03:01,151 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 12:03:01,152 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 12:03:02,449 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 12:03:02,518 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 12:03:02,544 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 12:03:02,577 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 12:03:02,577 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 12:03:02,587 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693994582585 with initial instances count: 0
+2023-09-06 12:03:02,644 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 12:03:02,647 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 12:03:02,741 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 12:03:02,743 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 12:03:02,762 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 12:03:02,871 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 12:03:02,875 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 12:03:02,890 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 12:03:02,890 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 12:03:02,891 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 12:03:02,891 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 12:03:02,891 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 12:03:02,902 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 12:03:02,911 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 12:03:02,912 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 12:03:03,914 INFO o.s.c.c.u.InetUtils [main] Cannot determine local hostname
+2023-09-06 12:03:03,931 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 7.348 seconds (process running for 7.911)
+2023-09-06 12:03:05,311 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 12:03:05,325 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 12:03:05,329 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 12:03:05,339 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 12:03:05,340 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 12:03:05,340 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 12:03:05,346 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 12:03:05,353 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 12:03:05,355 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-09-06 12:03:39,505 INFO o.s.b.StartupInfoLogger [main] Starting DiscoveryServerApplication using Java 17.0.7 with PID 44781 (/home/makdad/Desktop/SpringBoot/microservice-parent/discovery-server/target/classes started by makdad in /home/makdad/Desktop/SpringBoot/microservice-parent)
+2023-09-06 12:03:39,509 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-09-06 12:03:39,511 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-06 12:03:40,675 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=490f5b2f-2029-3db9-af70-0427739fa321
+2023-09-06 12:03:41,110 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8761 (http)
+2023-09-06 12:03:41,122 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2023-09-06 12:03:41,123 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-06 12:03:41,124 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-09-06 12:03:41,262 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-06 12:03:41,265 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1704 ms
+2023-09-06 12:03:42,485 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2023-09-06 12:03:42,487 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2023-09-06 12:03:42,720 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2023-09-06 12:03:42,721 INFO c.n.d.p.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2023-09-06 12:03:43,731 INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-09-06 12:03:43,804 WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-06 12:03:43,834 INFO o.s.c.n.e.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-09-06 12:03:43,866 INFO c.n.d.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-09-06 12:03:43,867 INFO c.n.d.DiscoveryClient [main] Client configured to neither register nor query for data.
+2023-09-06 12:03:43,878 INFO c.n.d.DiscoveryClient [main] Discovery Client initialized at timestamp 1693994623876 with initial instances count: 0
+2023-09-06 12:03:43,925 INFO c.n.e.DefaultEurekaServerContext [main] Initializing ...
+2023-09-06 12:03:43,928 WARN c.n.e.c.PeerEurekaNodes [main] The replica size seems to be empty. Check the route 53 DNS Registry
+2023-09-06 12:03:44,030 INFO c.n.e.r.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2023-09-06 12:03:44,033 INFO c.n.e.DefaultEurekaServerContext [main] Initialized
+2023-09-06 12:03:44,067 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-09-06 12:03:44,146 INFO o.s.c.n.e.s.EurekaServiceRegistry [main] Registering application DISCOVERY-SERVER with eureka with status UP
+2023-09-06 12:03:44,151 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2023-09-06 12:03:44,170 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] isAws returned false
+2023-09-06 12:03:44,171 INFO o.s.c.n.e.s.EurekaServerBootstrap [Thread-9] Initialized server context
+2023-09-06 12:03:44,171 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2023-09-06 12:03:44,172 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2023-09-06 12:03:44,172 INFO c.n.e.r.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2023-09-06 12:03:44,185 INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2023-09-06 12:03:44,269 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8761 (http) with context path ''
+2023-09-06 12:03:44,274 INFO o.s.c.n.e.s.EurekaAutoServiceRegistration [main] Updating port to 8761
+2023-09-06 12:03:44,350 INFO o.s.b.StartupInfoLogger [main] Started DiscoveryServerApplication in 5.61 seconds (process running for 6.037)
+2023-09-06 12:04:12,208 INFO o.a.j.l.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 12:04:12,209 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-06 12:04:12,215 INFO o.s.w.s.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2023-09-06 12:04:12,871 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status UP (replication=false)
+2023-09-06 12:04:18,493 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance INVENTORY-SERVICE/192.168.253.221:inventory-service:0 with status UP (replication=false)
+2023-09-06 12:04:28,002 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 12:04:44,173 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 12:04:55,767 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance ORDER-SERVICE/localhost:order-service:0 with status UP (replication=false)
+2023-09-06 12:05:40,600 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 12:05:40,610 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status DOWN (replication=false)
+2023-09-06 12:05:43,653 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance PRODUCT-SERVICE/192.168.253.221:product-service:0 (replication=false)
+2023-09-06 12:05:44,174 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 12:05:59,726 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 12:06:12,684 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance PRODUCT-SERVICE/192.168.253.221:product-service:0 with status UP (replication=false)
+2023-09-06 12:06:44,173 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 12:06:53,038 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance ORDER-SERVICE/192.168.253.221:order-service:0 with status UP (replication=false)
+2023-09-06 12:07:44,173 INFO c.n.e.r.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2023-09-06 12:08:19,477 INFO c.n.e.r.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-GATEWAY/192.168.253.221:api-gateway with status DOWN (replication=false)
+2023-09-06 12:08:19,492 INFO o.s.c.n.e.s.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DISCOVERY-SERVER with eureka with status DOWN
+2023-09-06 12:08:19,509 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Shutting down Eureka Server..
+2023-09-06 12:08:19,515 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 12:08:19,530 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 12:08:19,530 INFO o.s.c.n.e.s.EurekaServerBootstrap [SpringApplicationShutdownHook] Eureka Service is now shutdown...
+2023-09-06 12:08:19,531 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shutting down ...
+2023-09-06 12:08:19,544 INFO c.n.e.DefaultEurekaServerContext [SpringApplicationShutdownHook] Shut down
+2023-09-06 12:08:19,551 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-09-06 12:08:19,552 INFO c.n.d.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
